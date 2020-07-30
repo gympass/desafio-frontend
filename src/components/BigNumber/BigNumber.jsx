@@ -14,7 +14,7 @@ const H1 = styled.h1`
   text-align: center;
 `;
 
-const QUERY = gql`
+export const QUERY = gql`
   query ($login: String!) {
     user(login: $login) {
       id
