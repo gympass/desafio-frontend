@@ -6,6 +6,9 @@ import Input from '../../components/Input';
 
 const Container = styled.div`
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   height: 100vh;
 `;
 
